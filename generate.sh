@@ -16,6 +16,9 @@ PROJECT=$(
     | jq -r '.packages[0].name'
 )
 
+# Rustdoc replaces hyphens with underscores in the output directory name
+CRATE_DIR=$(echo "$PROJECT" | tr '-' '_')
+
 OUT="$DOCS_ROOT/$PROJECT"
 TMP_TARGET="$(mktemp -d)"
 
@@ -37,7 +40,7 @@ cp -r "$TMP_TARGET/doc/"* "$OUT/"
 # 3. Root redirect
 cat > "$OUT/index.html" <<EOF
 <!doctype html>
-<meta http-equiv="refresh" content="0; url=./$PROJECT/">
+<meta http-equiv="refresh" content="0; url=./$CRATE_DIR/">
 <title>$PROJECT documentation</title>
 EOF
 
