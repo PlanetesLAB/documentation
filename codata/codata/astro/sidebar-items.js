@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"constant":["ASTRO_CONSTANTS"],"mod":["iau2015"]};

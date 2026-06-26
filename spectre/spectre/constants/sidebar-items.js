@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"constant":["FWHM_TO_AREA","SIGMA_TO_FWHM"]};

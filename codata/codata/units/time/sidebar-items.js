@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"constant":["DAY","HOUR","MINUTE","WEEK","YEAR"]};

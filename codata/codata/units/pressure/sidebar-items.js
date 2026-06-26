@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"constant":["ATM","BAR","PSI","TORR"]};

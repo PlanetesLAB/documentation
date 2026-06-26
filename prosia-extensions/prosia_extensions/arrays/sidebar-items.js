@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["ExtremaError"],"fn":["find_index_ge","find_index_le","lower_bound_index","upper_bound_index"],"trait":["ArrayExtrema","Integrable","Sequence"]};

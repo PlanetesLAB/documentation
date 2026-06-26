@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"constant":["ANGSTROM","FOOT","INCH","LIGHT_YEAR","MILE","NAUTICAL_MILE"]};
